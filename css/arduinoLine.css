@@ -1,0 +1,39 @@
+body{
+  background-color: lightblue;
+  margin: 0px;
+}
+
+canvas {
+    cursor: crosshair;
+    border: 1px solid #000000;
+}
+
+.arduinoBreadboardCanvas{
+  background-color: white;
+  width: 875px;
+  min-width: 875px;
+  height: 566px;
+  min-height: 566px;
+  background-image: url("../img/breadboard.png");
+  margin: 0px:
+}
+
+#wrapper {
+    position:relative;
+    width:875px;
+    height:566px;
+}
+#canvas, #canvasTemp {
+    position:absolute;
+    top:0px;
+    left:0px;
+    border:1px solid blue;
+    width:100%;
+    height:100%;
+}
+#canvasTemp {
+    border:1.5px solid green;
+}
+#canvas {
+    border:1px solid red;
+}
